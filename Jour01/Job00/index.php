@@ -13,5 +13,4 @@ echo ($val);
 $myBool = false;
 echo ($myBool); 
 
-
 ?>  
