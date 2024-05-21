@@ -10,7 +10,7 @@ echo ($val);
 $val = $val + 4;
 echo ($val);
 
-$myBool = true;
+$myBool = false;
 echo ($myBool); 
 
 
