@@ -18,7 +18,7 @@ $table = array('cat','col2','col3');
 <?php echo"<td>$col1</td><td>$col2</td><td>$col3</td>";?>
 </tr>
 
-<tr>
+<tr> <!-- pour donner l'ordre des colonnes -->
 <?php echo"<td>$table[0]</td><td>$table[1]</td><td>$table[2]</td>";?>
 </tr>
 
