@@ -7,3 +7,4 @@ echo $string1;
 $string2 = "Hello LaPlateforme!";
 echo $string2;
 /* 2ème méthode commentaire */
+?>
