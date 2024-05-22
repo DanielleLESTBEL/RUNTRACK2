@@ -6,5 +6,5 @@ for ($num = 0 ; $num <= 1337 ; $num++) {
     else {
         echo $num ."<br />";
     }
-
 }
+?>
