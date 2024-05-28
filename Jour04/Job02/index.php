@@ -7,6 +7,17 @@
 
 </head>
 <body>
+
+<table>
+<thead>
+    <tr>
+        <th>Argument</th>
+        <th>Valeur</th>
+    </tr>
+</thead>
+
+
+</table>
 <form action="index.php" method="GET"> 
     <label for="firstname">Prénom</label> 
     <input type="text" name="firstname" id="firstname">
@@ -27,6 +38,3 @@ if (!empty($_GET['firstname']) && !empty($_GET['lastname'])) {
 
 </body>
 </html>
-
-
-
