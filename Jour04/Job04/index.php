@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jour04_Job01</title>
 
+    <style>
+    td, th{ 
+        border: 1px solid black;
+    }
+    </style>
 </head>
 <body>
 <form action="index.php" method="POST"> 
