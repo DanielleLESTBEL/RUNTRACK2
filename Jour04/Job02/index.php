@@ -7,6 +7,21 @@
 
 </head>
 <body>
+<form action="index.php" method="GET"> 
+    <label for="firstname">Prénom</label> 
+    <input type="text" name="firstname" id="firstname">
+    <label for="lastname">Nom</label>
+    <input type="text" name="lastname" id="lastname">
+    <input type="submit" value="Confirmer">
+</form>
+<?php
+
+if (isset($_GET['firstname']) && isset($_GET['lastname'])) {
+    
+} 
+
+
+?>
 
 <table>
 <thead>
@@ -15,26 +30,10 @@
         <th>Valeur</th>
     </tr>
 </thead>
-
+<td><?php echo $_GET['firstname']?></td>
+<td> <?php echo $_GET['lastname']?> </td>
 
 </table>
-<form action="index.php" method="GET"> 
-    <label for="firstname">Prénom</label> 
-    <input type="text" name="firstname" id="firstname">
-    <label for="lastname">Nom</label>
-    <input type="text" name="lastname" id="lastname">
-    <input type="submit" value="Confirmer">
-</form>
-
-<?php
-
-if (!empty($_GET['firstname']) && !empty($_GET['lastname'])) {
-    echo "Le nombre d'arguments GET envoyés est : " . count($_GET);
-    } 
-    else {  /*sinon, ne rien afficher*/    
-        }
-
-?>
 
 </body>
 </html>
