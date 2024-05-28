@@ -17,7 +17,7 @@
 
 <?php
 
-if (!empty($_GET['firstname']) && !empty($_GET['lastname'])) {
+if (isset($_GET['firstname']) && isset($_GET['lastname'])) {
     echo "Le nombre d'arguments GET envoyés est : " . count($_GET);
     } 
     else {  /*sinon, ne rien afficher*/    
