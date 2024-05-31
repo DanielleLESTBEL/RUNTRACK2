@@ -1,0 +1,1 @@
+SELECT * FROM `salles` ORDER BY `salles`.`nom` ASC, `salles`.`capacite` ASC
