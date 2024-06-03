@@ -1,1 +1,1 @@
-SELECT * FROM etudiants WHERE naissance <= DATE_SUB(CURDATE(), INTERVAL 18 YEAR);
+SELECT * FROM `etudiants`WHERE naissance BETWEEN "1988-01-01" AND "2018-12-31";
