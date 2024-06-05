@@ -21,7 +21,7 @@ echo "</table>";
     <meta charset="UTF-8">
     <title>runtrack2/jour10/job02</title>
     <META TYPE="AUTHOR" VALUE="runtrack2/jour10/job02"/>
-
+    <link rel= "stylesheet" href="./index.css">
 </head>
 <body>
 

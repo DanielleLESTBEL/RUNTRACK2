@@ -24,3 +24,15 @@ echo "<tr>
 echo "</table>";
 
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jour10_Job04</title>
+    <link rel= "stylesheet" href="./index.css">
+</head>
+<body>
+    
+</body>
+</html>
