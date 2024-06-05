@@ -1,24 +1,28 @@
 <?php
-$cheminement = mysqli_connect("localhost", "root", "", "jour09");
-$selections = mysqli_query($cheminement, "SELECT * FROM étudiants");
+$recupdata = mysqli_connect("localhost", "root", "", "Jour09");
+$selections = mysqli_query($recupdata, "SELECT * FROM etudiants");
 $result = mysqli_fetch_assoc($selections);
-echo 
-        "<table border=2>
+
+echo  "<table>
             <thead>
                     <th>
-                        Prénom
+                        Prenom
                     </th>
+
                     <th>
                         Nom
                     </th>
+
                     <th>
                         Naissance
                     </th>
+
                     <th>
                         Sexe
                     </th>
+
                     <th>
-                        Email
+                        email
                     </th>        
             </thead>
             <tbody>";
