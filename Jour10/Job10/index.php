@@ -1,3 +1,4 @@
+
 <?php
 $mysqli = mysqli_connect("localhost", "root", "", "Jour09");
 $result = mysqli_query($mysqli, "SELECT * FROM `salles` ORDER BY capacite ASC;");
@@ -31,10 +32,12 @@ echo "</table>";
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jour10_Job08</title>
+    <title>Jour10_Job10</title>
     <link rel= "stylesheet" href="./index.css">
 </head>
 <body>
     
 </body>
 </html>
+
+
