@@ -1,7 +1,6 @@
 <?php
 $mysqli = mysqli_connect("localhost", "root", "", "Jour09");
-$result = mysqli_query($mysqli, "SELECT SUM(superficie) AS superficie_totale 
-FROM etage;");
+$result = mysqli_query($mysqli, "SELECT SUM(superficie) AS superficie_totale FROM etage;");
 $rows = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
 echo "<table>";
