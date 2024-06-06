@@ -1,1 +1,1 @@
-SELECT * FROM `salles` ORDER BY capacité DESC;
+SELECT * FROM `salles` ORDER BY capacite DESC;
