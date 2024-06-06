@@ -5,8 +5,10 @@ $rows = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
 echo "<table>";
 
+echo "<thead>
+<th colspan = '4'> Capacité décroissante des salles </th>";
+echo "</thead>";
 echo "<tr>
-        <th> Capacité décroissante des salles </th>
         <th> ID </th>
         <th> Nom </th>
         <th> Etage </th>
@@ -14,7 +16,7 @@ echo "<tr>
     </tr>";
 foreach ($rows as $row){ 
 echo "<tr>
-    <th> </th>
+    
     <td>{$row['id']}</td>
     <td>{$row['nom']}</td>
     <td>{$row['id_etage']}</td>
